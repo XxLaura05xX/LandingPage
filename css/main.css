@@ -1,0 +1,285 @@
+body{
+    margin: 0%;
+    background: rgb(75,0,196);
+    background: linear-gradient(90deg, rgba(75,0,196,1) 9%, rgba(35,35,159,1) 100%, rgba(2,0,36,1) 100%);   
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 0;
+  background: black;
+  border-radius: 15px;
+
+}
+
+.to {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.swiper {
+    width: 100%;
+    
+  }
+
+  h1 {
+    margin: 0;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav li:first-child{
+    margin-left: 0;
+  }
+  .disccount{
+    margin-top: 50px;
+  }
+  
+  .img-container{
+      margin-top: 100px;
+  
+  }
+  
+  .img-container img {
+      margin-top: 50px;
+  }
+  
+  .enlace{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+  }
+  .titulo{
+   color:white;
+   font-size:50px;
+   -webkit-text-stroke: 0.9px black;
+   
+  }
+  #Menu{
+    text-align:right;
+    font-size:20px;
+    font-family:georgia;
+    border-radius: 10px;
+    padding: 15px 32px;
+  }
+  
+  .inicio {
+    color:white;
+    text-align:center;
+    font-size: 30px;
+    margin: 50px;
+    
+  }
+  #productos{
+    color:white;
+    text-align:center;
+    font-size: 30px;
+  }
+  #tips{
+    color:white;
+    text-align:center;
+    font-size: 30px;  
+  }
+  #resenas{
+    color:white;
+    text-align:center;
+    font-size: 30px;    
+  }
+  .container p{
+    background: #E4EDF2;
+    font-family:georgia;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px; 
+    padding: 15px;
+    border: 3px dashed black;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .container{
+    display:flex;
+    justify-content:space-evenly; 
+  }
+  .container img{
+    border-radius: 50%;
+    margin: 10px;
+  
+  }
+  .registro{
+  font-family:georgia;
+   text-align:center; 
+    margin: 15px;
+  }
+  .p1{
+    color: white; 
+    font-size: 30px;
+    position: absolute;
+    top: 120px;
+    left: 300px;  
+  }
+  .p2{
+    color: white; 
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 50px;
+  }
+  
+  #contacto{
+    color:white;
+    text-align:center;
+    font-size: 30px; 
+  }
+  .agrupar{
+    color:white;
+    text-align:center;
+    font-family:georgia;
+  
+  }
+  .agrupar2{
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+  .img{
+    border-radius: 10px;
+    position: relative;
+    left: 450px;  
+  }
+  .button2{
+    background: #ffffff;
+    text: white;
+    padding: 5px 10px;
+    font-size:20px;
+    border-radius: 10px;
+    position: relative;
+    left: 10px; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+  .restyle{
+    color: Black;
+    border-radius: 10px;
+    padding: 9px 20px;
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    left: 15px;  
+  }
+  .imagenes{ 
+    display:flex;
+    justify-content:space-around;
+    
+  }
+  img{
+    border-radius: 0%;
+  
+  }
+  .textproducts{
+    color: white;
+    display:flex;
+    justify-content:space-around;
+  
+    
+  }
+  .volver{
+    color: white;
+    font-size: 25px;
+    margin: 20px;
+  
+  }
+  .button-inicio{
+    text-align:center;
+    cursor: pointer;
+    font-size:25px;
+    border-radius: 30px; 
+    padding: 15px 32px;
+    margin: 15px;
+    text-decoration: none;
+  }
+  .btn-1 {
+    color: black;
+     border-radius: 30px;
+      background: white;
+  }
+  .btn-2 {
+    color: black;
+    border-radius: 30px;
+    background: white;
+    margin-left: 5px;
+  }
+  .button-inicio :hover {
+    background: black !important;
+    color: white;
+  }
+  .tipsp {
+    color: white;
+    font-size:25px;
+    text-align:center;
+    margin: 30px;
+  }
+  .tipsp a {
+    color: black;
+  }
+  .buttonf{
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+  
+  }
+  
+  .footer{
+    position: relative;
+    height: 120px;
+    background: black;
+    padding: 30px 50px;
+    z-index: 1;
+    
+  }
+  .footer p {
+    color: white;
+   
+  }
+  .sc{
+    color: white;
+  }
+  
+  .footer2 {
+    position: absolute;
+    top: 20px;
+    right: 35px;  
+    z-index: 2;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+  
+  }
+  .footer3{
+    position: absolute;
+    top: 20px;
+    left: 505px;  
+    z-index: 3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fffF; 
+    padding: 1px;
+    text-align: center;
+  }
+
